@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'cornflowerBlue'
 
 Line(200, 0, 200, 400, fill='silver', lineWidth=400, opacity=30, dashes=(1, 20))
@@ -20,3 +24,5 @@ def onMousePress(mouseX, mouseY):
         greenPolygon.addPoint(mouseX, mouseY)
         pinkPolygon.addPoint(400 - mouseX, mouseY)
     pass
+
+cmu_graphics.run()

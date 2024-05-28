@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the flag of France.
 ### (HINT: To draw the border, use a Rect with a fill of None. Use the Inspector
 #          to find the borderWidth.)
@@ -8,3 +12,4 @@ Rect(50, 100, 100, 200, fill='navy')
 Rect(250, 100, 100, 200, fill='crimson')
 
 Rect(50, 100, 300, 200, fill=None, border='black', borderWidth=5)
+cmu_graphics.run()

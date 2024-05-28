@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill=rgb(230, 230, 255))
 
@@ -83,3 +87,4 @@ Line(
     fill = 'skyBlue',
     lineWidth = 30
 )
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the background.
 Rect(0, 0, 400, 400)
 
@@ -11,3 +15,4 @@ RegularPolygon(200, 200, 150, 8, fill = gradient('aliceBlue', 'lightBlue', 'stee
 Star(200, 200, 150, 8, roundness = 10, fill = gradient('aliceBlue', 'aliceBlue', 'lightBlue'))
 
 RegularPolygon(200, 200, 100, 8, fill = 'aliceBlue')
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'lightCyan'
 
 # seesaw support
@@ -44,3 +48,5 @@ def onMouseMove(mouseX, mouseY):
         seesaw.rotateAngle = -45
     
     pass
+
+cmu_graphics.run()

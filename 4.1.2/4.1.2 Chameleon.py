@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 200, 400, fill='blueViolet', opacity=70)
 Rect(200, 0, 200, 400, fill='limeGreen', opacity=50)
@@ -25,3 +29,5 @@ def onMousePress(mouseX, mouseY):
         chameleon.fill = 'limeGreen'
     
     pass
+
+cmu_graphics.run()

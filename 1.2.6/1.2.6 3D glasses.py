@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the background color.
 Rect(0, 0, 400, 400, fill='tan')
 
@@ -19,3 +23,4 @@ Rect(340, 100, 60, 40, fill = 'white')
 Rect(60, 60, 125, 120, fill = 'red', opacity = 60)
 
 Rect(215, 60, 125, 120, fill = 'blue', opacity = 60)
+cmu_graphics.run()

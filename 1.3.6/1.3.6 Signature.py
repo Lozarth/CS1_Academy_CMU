@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the table and the paper.
 Rect(0, 0, 400, 400, fill='sienna')
 Rect(100, 50, 200, 300, fill='ghostWhite')
@@ -16,3 +20,4 @@ Label('Contract', 200, 80, font = 'orbitron', size = 18, bold = True)
 Label('Sign Here', 150, 290, font = 'arial', italic = True)
 
 Label('Sarah Smith', 190, 315, font = 'cursive', size = 20)
+cmu_graphics.run()

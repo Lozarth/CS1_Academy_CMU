@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'darkSlateBlue'
 
 path = Polygon(150, 230, 150, 380, 20, 380, 20, 250, 0, 250, 0, 200, 70, 200,
@@ -25,3 +29,5 @@ def onMouseMove(mouseX, mouseY):
     elif (greenStar.hits(mouseX, mouseY)):
         drawEndScreen('honeydew', 'YOU WIN!', 'green')
     pass
+
+cmu_graphics.run()

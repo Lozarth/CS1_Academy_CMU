@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'aliceBlue'
 
 # vase
@@ -21,3 +25,5 @@ def onMousePress(mouseX, mouseY):
         drawLeaf(mouseX, mouseY)
         
     drawFlower(mouseX, mouseY)
+
+cmu_graphics.run()

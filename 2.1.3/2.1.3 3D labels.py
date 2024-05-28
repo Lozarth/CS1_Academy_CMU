@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400, fill='aliceBlue')
 
 def draw3DLabel(text):
@@ -29,3 +33,5 @@ def draw3DLabel(text):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 draw3DLabel('Hello World')
+
+cmu_graphics.run()

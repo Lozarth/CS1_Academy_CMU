@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # The rocketShip function below has parameters which will determine what
 # is drawn, but some of them have yet to be used...
 def rocketShip(planetColor, isEngineOn, isOnPlanet):
@@ -43,3 +47,5 @@ def rocketShip(planetColor, isEngineOn, isOnPlanet):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 rocketShip('grey', False, True)
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def drawFace(x, y, backgroundColor):
     Rect(x - 100, y - 100, 200, 200, fill=backgroundColor)
     Circle(x - 25, y - 20, 20, fill='white')
@@ -44,3 +48,5 @@ def onMousePress(mouseX, mouseY):
         else:
             purpleMouth.value = '-'
     pass
+
+cmu_graphics.run()

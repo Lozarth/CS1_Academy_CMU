@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='whiteSmoke')
 
@@ -63,3 +67,5 @@ Polygon(
     
     fill = PigmentGreen
 )
+
+cmu_graphics.run()

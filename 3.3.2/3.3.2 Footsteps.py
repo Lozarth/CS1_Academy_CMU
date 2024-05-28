@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(190, 0, 10, 400)
 Rect(200, 0, 10, 400, fill='tan')
@@ -15,3 +19,5 @@ def onMousePress(mouseX, mouseY):
     else:
         drawFootstep(mouseX, mouseY, 'tan')
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'tan'
 
 # piece of fabric
@@ -36,3 +40,5 @@ def onMouseRelease(mouseX, mouseY):
         dashes = True
     )
     pass
+
+cmu_graphics.run()

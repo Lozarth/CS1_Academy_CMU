@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Colors
 Trinidad = rgb(201, 70, 38)
 TrinidadLight = rgb(237, 111, 80)
@@ -202,3 +206,4 @@ Label(
     fill = 'white',
     size = 7
 )
+cmu_graphics.run()

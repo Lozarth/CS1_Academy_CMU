@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='lightSteelBlue')
 
@@ -32,3 +36,5 @@ def onMouseRelease(mouseX, mouseY):
         fill = 'lightSteelBlue'
     )
     pass
+
+cmu_graphics.run()

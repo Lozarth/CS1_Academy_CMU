@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 
 leftVolumeBar = Line(75, 300, 75, 400, lineWidth=100, dashes=True,
@@ -35,3 +39,5 @@ def onMouseMove(mouseX, mouseY):
         rightVolumeBar.y1  = mouseY
 
     pass
+
+cmu_graphics.run()

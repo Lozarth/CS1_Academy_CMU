@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # sign
 Rect(0, 0, 400, 400, fill='whiteSmoke')
 Rect(20, 50, 360, 100, fill='gold', border='black')
@@ -30,3 +34,5 @@ def updateDepartingFlights(time, destination, gate):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 updateDepartingFlights('04:00', 'Madrid', 'D82')
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('lightSkyBlue', 'lightCyan', start='top')
 
 # flower and tree
@@ -44,3 +48,5 @@ def onMousePress(mouseX, mouseY):
     dipperTop.y1 = mouseY
     dipperTop.y2 = mouseY - 20
     pass
+
+cmu_graphics.run()

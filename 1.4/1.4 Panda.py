@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the panda!
 ### (HINT: This exercise requires some careful use of the Inspector!)
 ### Place Your Code Here ###
@@ -101,3 +105,4 @@ Line(
     fill = gradient('oliveDrab', 'darkOliveGreen', 'darkGreen'),
     lineWidth = 20
 )
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 ### Place Your Code Here ###
 
 # Background
@@ -250,3 +254,4 @@ Line(
     fill = 'black',
     lineWidth = 2
 )
+cmu_graphics.run()

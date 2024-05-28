@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('powderBlue', 'aliceBlue', start='top')
 
 sun = Circle(200, 0, 70,  fill='gold')
@@ -28,3 +32,5 @@ def onMouseMove(mouseX, mouseY):
     else:
         flower.rotateAngle = -45
         flowerCenter.rotateAngle = -45
+
+cmu_graphics.run()

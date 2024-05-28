@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'cornflowerBlue'
 app.animalName = None
 
@@ -58,3 +62,5 @@ def onMouseRelease(mouseX, mouseY):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawAnimal('porcupine')
+
+cmu_graphics.run()

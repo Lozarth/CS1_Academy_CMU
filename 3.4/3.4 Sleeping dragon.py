@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'fireBrick'
 
 # eye
@@ -21,3 +25,5 @@ def onMouseMove(mouseX, mouseY):
     else:
         sleepLabel.visible = True
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the background and blank cards.
 Rect(0, 0, 400, 400, fill=gradient('darkGreen', 'forestGreen', start='top'))
 Rect(90, 50, 180, 280, fill=rgb(245, 245, 245))
@@ -16,3 +20,4 @@ Star(280, 320, 15, 4, roundness=65, fill = 'crimson')
 Label('2', 110, 70, size = 30, font = 'monospace', fill = 'crimson', bold = True)
 Label('A', 150, 90, size = 30, font = 'monospace', fill = 'crimson', bold = True)
 Label('A', 280, 290, size = 30, font = 'monospace', fill = 'crimson', bold = True)
+cmu_graphics.run()

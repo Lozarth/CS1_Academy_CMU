@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('indigo', 'lightCyan', start='top')
 
 # table
@@ -31,3 +35,5 @@ def onMouseMove(mouseX, mouseY):
         wormy.visible = False
         eye.visible = False
     pass
+
+cmu_graphics.run()

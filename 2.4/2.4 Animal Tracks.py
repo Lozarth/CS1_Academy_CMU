@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background color
 app.background = gradient('wheat', 'tan', start='top')
 
@@ -51,3 +55,5 @@ def onMousePress(mouseX, mouseY):
     
     
     pass
+
+cmu_graphics.run()

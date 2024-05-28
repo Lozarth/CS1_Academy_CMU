@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the sky.
 Rect(0, 0, 400, 200, fill='skyBlue')
 
@@ -72,3 +76,5 @@ Circle(
 
 # Draws the ocean.
 Rect(0, 200, 400, 200, fill='navy')
+
+cmu_graphics.run()

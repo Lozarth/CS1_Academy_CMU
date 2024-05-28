@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('dodgerBlue', 'deepSkyBlue', 'lightCyan', start='top')
 
 cactusTop1 = Circle(200, 50, 40, fill='forestGreen', border='wheat', dashes=(5, 6))
@@ -54,3 +58,5 @@ def onMousePress(mouseX, mouseY):
     cactus3.toFront()
     sand.toFront()
     pass
+
+cmu_graphics.run()

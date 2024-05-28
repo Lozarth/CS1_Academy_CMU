@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'lightBlue', start='top')
 
 sun = Circle(200, 100, 50, fill='yellow')
@@ -54,3 +58,5 @@ def onMouseMove(mouseX, mouseY):
             'darkGreen',
             True
         )
+
+cmu_graphics.run()

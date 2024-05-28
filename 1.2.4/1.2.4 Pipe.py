@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the sky and ground.
 ### Place Your Code Here ###
 
@@ -12,3 +16,4 @@ Rect(0, 275, 400, 200, fill=gradient('tan', 'wheat', start='top'))
 Rect(100, 125, 200, 50, fill=gradient('limeGreen', 'darkGreen', start='left'))
 
 Rect(125, 175, 150, 100, fill=gradient('limeGreen', 'darkGreen', start='left'))
+cmu_graphics.run()

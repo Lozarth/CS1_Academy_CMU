@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400, fill='skyBlue')
 
 def drawFlower(color):
@@ -17,3 +21,5 @@ def drawFlower(color):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawFlower('gold')
+
+cmu_graphics.run()

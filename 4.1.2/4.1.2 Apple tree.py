@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = rgb(205, 230, 240)
 
 season = Label('Spring', 200, 50, size=30)
@@ -65,3 +69,5 @@ def onMousePress(mouseX, mouseY):
         showApplesOrFlowers(True)
         changeApples(gradient('pink', 'violet'), 50)
     pass
+
+cmu_graphics.run()

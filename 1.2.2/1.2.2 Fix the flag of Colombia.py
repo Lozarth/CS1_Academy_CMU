@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # This code 'looks right', but it contains an error: the gold rectangle is too
 # large! The autograder will not accept it until the gold rectangle is not
 # overlapped by the blue and red rectangles.
@@ -8,3 +12,5 @@ Rect(50, 100, 300, 100, fill='gold')
 # This correctly draws the blue and red rectangles.
 Rect(50, 200, 300, 50, fill='navy')
 Rect(50, 250, 300, 50, fill='crimson')
+
+cmu_graphics.run()

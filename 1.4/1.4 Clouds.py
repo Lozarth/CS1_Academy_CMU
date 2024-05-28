@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the sky and the clouds.
 ### Place Your Code Here ###
 BabyPink = rgb(255, 185, 255)
@@ -97,3 +101,5 @@ Rect(
     
     fill = 'ghostWhite'
 )
+
+cmu_graphics.run()

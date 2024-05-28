@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('midnightBlue', 'royalBlue', start='top')
 
 Rect(50, 10, 300, 380, fill=gradient('whiteSmoke', 'white', start='top'))
@@ -24,3 +28,4 @@ def onKeyPress(key):
     
     
     pass
+cmu_graphics.run()

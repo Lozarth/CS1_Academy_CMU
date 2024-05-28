@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'powderBlue'
 
 # armchair cushion and back
@@ -98,3 +102,5 @@ def onMouseDrag(mouseX, mouseY):
     eyelidCover.height = 50
     eyelidCover.bottom = 240
     pass
+
+cmu_graphics.run()

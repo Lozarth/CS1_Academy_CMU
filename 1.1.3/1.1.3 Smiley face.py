@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw two eyes and a mouth to create the image.
 ### (HINT: Use the Inspector to find the left, top, width, and height!)
 ### Place Your Code Here ###
@@ -11,3 +15,4 @@ Rect(50, 200, 25, 75)
 Rect(75, 275, 250, 40)
 
 Rect(325, 200, 25, 75)
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('gray', 'black')
 # Walls
 
@@ -448,3 +452,4 @@ def onMouseRelease(mouseX, mouseY):
     normalSign.fill='darkRed'
     normalPeeps.visible = False
     app.background = gradient('gray', 'black')
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('black', 'midnightBlue', start='top')
 
 # Draw the alien body.
@@ -79,3 +83,5 @@ def drawEye(centerX, centerY, eyeSize, pupilSize):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawEye(200, 175, 55, 27)
+
+cmu_graphics.run()

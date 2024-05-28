@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def drawButterfly(wingColor, bodyColor, patternColor1, patternColor2):
     # background
     Rect(0, 0, 400, 400, fill=gradient(patternColor1, patternColor2), opacity=20)
@@ -36,3 +40,5 @@ def drawButterfly(wingColor, bodyColor, patternColor1, patternColor2):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawButterfly('navy', 'purple', 'dodgerBlue', 'indigo')
+
+cmu_graphics.run()

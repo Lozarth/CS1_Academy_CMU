@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'deepSkyBlue'
 
 Line(0, 120, 400, 120, fill='darkGrey', lineWidth=90)
@@ -21,3 +25,5 @@ def onMousePress(mouseX, mouseY):
         yellowLight.opacity = 30
         redLight.opacity = 100
     pass
+
+cmu_graphics.run()

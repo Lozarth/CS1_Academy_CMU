@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('white', 'aliceBlue')
 
 # feet
@@ -38,3 +42,5 @@ def onMousePress(mouseX, mouseY):
     if (belly.radius > 100):
         hungryLabel.visible = True
     pass
+
+cmu_graphics.run()

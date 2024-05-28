@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 app.background = rgb(170, 185, 55)
 Circle(200, 200, 150, fill='white')
@@ -70,3 +74,5 @@ def onMouseMove(mouseX, mouseY):
     leftEye.centerY = 180 + (mouseY / 20)
     rightEye.centerX = 225 + (mouseX / 20)
     rightEye.centerY = 180 + (mouseY / 20)
+
+cmu_graphics.run()

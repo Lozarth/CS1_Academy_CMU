@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('dodgerBlue', 'navy')
 
 dot1 = Circle(100, 100, 10, fill=gradient('lightCoral', 'crimson'))
@@ -34,3 +38,5 @@ def onMouseMove(mouseX, mouseY):
     dot4.centerX = 400 - mouseX
     dot4.centerY = 400 - mouseY
     pass
+
+cmu_graphics.run()

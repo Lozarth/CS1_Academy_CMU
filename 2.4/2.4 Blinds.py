@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'gold', start='top')
 
 # sun
@@ -38,3 +42,5 @@ def onMousePress(mouseX, mouseY):
     blinds.y2 = mouseY
     cord.y2 = 400 - mouseY
     pass
+
+cmu_graphics.run()

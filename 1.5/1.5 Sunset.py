@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 ### Place Your Code Here ###
 
 # Sky
@@ -169,3 +173,5 @@ Polygon(
     
     fill = 'burlyWood'
 )
+
+cmu_graphics.run()

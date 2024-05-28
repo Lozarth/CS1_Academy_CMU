@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill=gradient('turquoise', 'paleTurquoise'))
 
@@ -35,3 +39,5 @@ def onMousePress(mouseX, mouseY):
     if (juice.top > 180):
         juice.height += 2
         juice.top -= 2
+
+cmu_graphics.run()

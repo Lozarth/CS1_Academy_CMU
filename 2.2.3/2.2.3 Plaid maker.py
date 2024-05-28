@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400,
      fill=gradient('darkBlue', 'teal', 'teal', 'darkGreen', start='left-top'))
@@ -28,3 +32,5 @@ def onMousePress(mouseX, mouseY):
     )
     
     pass
+
+cmu_graphics.run()

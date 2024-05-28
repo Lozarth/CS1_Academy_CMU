@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('darkSlateGrey', 'deepSkyBlue', start='top')
 
 # grass
@@ -49,3 +53,5 @@ def onMousePress(mouseX, mouseY):
 def onMouseMove(mouseX, mouseY):
     water.centerX = mouseX
     water.centerY = mouseY
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='wheat')
 
@@ -76,3 +80,5 @@ Polygon(
     
     fill = 'cadetBlue'
 )
+
+cmu_graphics.run()

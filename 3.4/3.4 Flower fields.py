@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # water
 Rect(0, 125, 400, 150, fill='cornflowerBlue')
 
@@ -21,3 +25,5 @@ def onMousePress(mouseX, mouseY):
     if (mouseY >= 275 or mouseY <= 125):
         drawFlower(mouseX, mouseY)
     pass
+
+cmu_graphics.run()

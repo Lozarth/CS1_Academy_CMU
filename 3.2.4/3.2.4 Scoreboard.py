@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'cornflowerBlue'
 
 # time section
@@ -56,3 +60,5 @@ def finalScoreboard(homeScore, awayScore):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 finalScoreboard(49, 38)
+
+cmu_graphics.run()

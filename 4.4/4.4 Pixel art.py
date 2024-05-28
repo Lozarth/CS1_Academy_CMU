@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 cursor = Rect(20, 20, 20, 20, fill='red', border='black')
 
 def moveCursor(key):
@@ -49,3 +53,5 @@ def onKeyPress(key):
     changeColor(key)
     placeRect(key)
     cursor.toFront()
+
+cmu_graphics.run()

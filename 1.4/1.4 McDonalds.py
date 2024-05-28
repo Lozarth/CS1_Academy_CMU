@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='skyBlue')
 
@@ -103,3 +107,4 @@ Label(
     size = 25,
     bold = True
 )
+cmu_graphics.run()

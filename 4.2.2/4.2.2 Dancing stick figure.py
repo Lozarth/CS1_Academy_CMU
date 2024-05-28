@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('azure', 'lightBlue', 'blue')
 
 # face and body
@@ -36,3 +40,5 @@ def onKeyPress(key):
     elif (key == 'right'):
         toggleRightArm()
     pass
+
+cmu_graphics.run()

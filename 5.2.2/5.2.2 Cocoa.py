@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'lightCyan'
 
 # table
@@ -55,3 +59,5 @@ def onKeyHold(keys):
     # are disappearing.
     ### Place Your Code Here ###
     pass
+
+cmu_graphics.run()

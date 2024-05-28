@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('skyBlue', 'lightBlue', start='top')
 
 o = Oval(200, 200, 200, 200, fill=gradient('lemonChiffon', 'gold'))
@@ -11,3 +15,5 @@ def onMouseMove(mouseX, mouseY):
     o.height = mouseY + 1
     o.width = mouseX + 1
     pass
+
+cmu_graphics.run()

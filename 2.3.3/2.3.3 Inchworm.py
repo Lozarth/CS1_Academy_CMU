@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # sky
 Rect(0, 0, 400, 325, fill=gradient('powderBlue', 'honeydew', start='top'))
 
@@ -80,3 +84,5 @@ def onMouseRelease(mouseX, mouseY):
     wormDown.centerX += 15
     wormUp.centerX += 15
     pass
+
+cmu_graphics.run()

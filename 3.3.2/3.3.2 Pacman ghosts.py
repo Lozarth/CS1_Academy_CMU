@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='midnightBlue')
 
@@ -86,3 +90,5 @@ def drawGhost(centerX, centerY, name, color):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawGhost(200, 200, 'Sue', 'violet')
+
+cmu_graphics.run()

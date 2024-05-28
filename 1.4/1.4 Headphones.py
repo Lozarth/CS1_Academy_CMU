@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the headphones.
 ### (HINT: You will need four shapes. One of them is a Rect with a fill of
 #          white that covers part of a circle.)
@@ -49,3 +53,5 @@ Rect(
     320, 160,
     40, 80
 )
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'red'
 
 # mask ridges
@@ -28,3 +32,5 @@ def onMouseRelease(mouseX, mouseY):
     ### Place Your Code Here ###
     app.background = 'red'
     pass
+
+cmu_graphics.run()

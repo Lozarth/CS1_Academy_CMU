@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient(rgb(230, 120, 70), rgb(225, 215, 135), start='top')
 
 # stick figure
@@ -54,3 +58,5 @@ def drawWeights(weight):
         lineWidth = 80,
         dashes = (1, 8)
     )
+
+cmu_graphics.run()

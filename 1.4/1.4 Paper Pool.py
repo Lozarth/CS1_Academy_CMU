@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draw the paper.
 ### (HINT: For the blue lines, use a very thick line with dashes. You can look at
 #          the Scotty Dog sample creative task later in the unit for an example.)
@@ -89,3 +93,4 @@ Line(102, 168, 108, 175)
 Line(108, 175, 108, 185)
 Line(102, 168, 112, 175)
 Line(112, 175, 112, 185)
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('black', 'midnightBlue')
 
 # hills
@@ -43,3 +47,5 @@ def onMousePress(mouseX, mouseY):
     else:
         flashlight.radius = 550
     pass
+
+cmu_graphics.run()

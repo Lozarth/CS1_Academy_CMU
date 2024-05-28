@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400,
      fill=gradient('limeGreen', 'yellow', 'orange', 'red', start='top'),
      opacity=20)
@@ -36,3 +40,5 @@ def onMouseMove(mouseX, mouseY):
         barLow.fill = 'dodgerBlue'
         
     pass
+
+cmu_graphics.run()

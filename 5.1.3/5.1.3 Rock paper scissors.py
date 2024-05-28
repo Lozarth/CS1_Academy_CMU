@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400, fill=gradient('steelBlue', 'lightSteelBlue', start='top'))
 
 leftThrow = Label('Rock', 100, 275, size=25)
@@ -81,3 +85,5 @@ def onKeyPress(key):
 
 drawLeftHand()
 drawRightHand()
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def drawBunny(bunnyColor):
     Rect(0, 0, 400, 400, fill=gradient('dodgerBlue', 'deepSkyBlue'))
 
@@ -34,3 +38,5 @@ def drawBunny(bunnyColor):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawBunny('pink')
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 app.background = 'wheat'
 
@@ -39,3 +43,5 @@ def onMouseRelease(mouseX, mouseY):
     ### Place Your Code Here ###
     tongue.visible = False
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'gainsboro'
 
 # background room
@@ -89,3 +93,5 @@ def onMousePress(mouseX, mouseY):
         if (button.hits(mouseX, mouseY)):
             button.clickFunc()
     pass
+
+cmu_graphics.run()

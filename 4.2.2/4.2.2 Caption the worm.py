@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'mediumAquamarine'
 
 # apple
@@ -43,3 +47,5 @@ def onKeyPress(key):
     #          the next line and set centerX back to the beginning of the line.)
     ### Place Your Code Here ###
     pass
+
+cmu_graphics.run()

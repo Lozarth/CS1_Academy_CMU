@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 sky = Rect(0, 0, 400, 400, fill='midnightBlue')
 
 moon = Circle(200, 170, 100, fill='gold')
@@ -26,3 +30,5 @@ def onMouseRelease(mouseX, mouseY):
     sun.fill = 'midnightBlue'
     moon.fill = 'gold'
     pass
+
+cmu_graphics.run()

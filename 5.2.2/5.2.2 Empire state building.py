@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient(rgb(165, 115, 180), rgb(235, 160, 130),
                           rgb(225, 190, 165), start='top')
 
@@ -44,3 +48,5 @@ def onKeyHold(keys):
         elevator.centerY += 3
         floor.value -= 1
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('midnightBlue', 'navy', 'black', start='bottom')
 
 # background stars
@@ -38,3 +42,5 @@ def onMouseMove(mouseX, mouseY):
         star.points = 8
     else:
         star.points = 5
+
+cmu_graphics.run()

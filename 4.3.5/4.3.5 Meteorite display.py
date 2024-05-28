@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = rgb(220, 215, 205)
 
 # casing
@@ -47,3 +51,5 @@ def onMouseMove(mouseX, mouseY):
         app.background = rgb(220, 215, 205)
 
     pass
+
+cmu_graphics.run()

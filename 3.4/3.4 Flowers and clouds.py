@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'lightCyan', start='top')
 
 # ground
@@ -28,3 +32,5 @@ def onMousePress(mouseX, mouseY):
     elif (mouseY >= 255):
         drawFlower(mouseX, mouseY)
     pass
+
+cmu_graphics.run()

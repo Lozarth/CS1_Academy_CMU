@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('skyBlue', rgb(235, 235, 235), start='top')
 
 app.volcanoHasErupted = False
@@ -50,3 +54,5 @@ def onMousePress(mouseX, mouseY):
         drawSpill()
         app.background = gradient('lightSlateGrey', 'lightGrey', start = 'top')
     pass
+
+cmu_graphics.run()

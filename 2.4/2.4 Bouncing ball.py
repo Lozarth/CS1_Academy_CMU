@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('midnightBlue', 'dodgerBlue', start='top')
 
 # Define the platform and ball variables.
@@ -26,3 +30,5 @@ def onMousePress(mouseX, mouseY):
     platform.rotateAngle -= 10
     ball.bottom = platform.top
     pass
+
+cmu_graphics.run()

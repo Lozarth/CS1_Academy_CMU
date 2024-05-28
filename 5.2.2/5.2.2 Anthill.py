@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('mediumSeaGreen', 'darkGreen')
 
 # anthill
@@ -16,3 +20,5 @@ def onKeyHold(keys):
     if ('space' in keys):
         ants.radius += 3
     pass
+
+cmu_graphics.run()

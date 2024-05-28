@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('lightSkyBlue', 'deepSkyBlue', start='top')
 
 # clouds
@@ -49,3 +53,5 @@ def onKeyRelease(key):
         downWing.visible = False
     
     pass
+
+cmu_graphics.run()

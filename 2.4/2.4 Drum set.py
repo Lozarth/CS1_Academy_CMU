@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 Polygon(30, 250, 370, 250, 600, 320, -200, 320, fill='lightGrey')
 Rect(0, 320, 400, 80, fill='slateGray')
@@ -59,3 +63,5 @@ def onMouseRelease(mouseX, mouseY):
     leftHiHat.rotateAngle = 45
     rightHiHat.rotateAngle = -45
     pass
+
+cmu_graphics.run()

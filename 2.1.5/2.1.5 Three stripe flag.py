@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def threeStripeFlag(country, color1, color2, color3):
     # Fix the label so it uses the function parameter: country.
     ### Fix Your Code Here ###
@@ -33,3 +37,5 @@ def threeStripeFlag(country, color1, color2, color3):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 threeStripeFlag('Belgium', 'black', 'gold', 'red')
+
+cmu_graphics.run()

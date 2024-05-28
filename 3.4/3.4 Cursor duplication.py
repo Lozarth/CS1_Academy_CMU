@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(100, 300, 600, 600, fill=gradient('aqua', 'royalBlue', 'midnightBlue'),
      align='center')
@@ -14,3 +18,5 @@ def onMouseMove(mouseX, mouseY):
     cursor.centerX = (mouseX + 6)
     cursor.centerY = 400 - (mouseY - 10) 
     pass
+
+cmu_graphics.run()

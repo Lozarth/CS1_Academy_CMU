@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='lightGreen')
 
@@ -57,3 +61,5 @@ def onMousePress(mouseX, mouseY):
     )
     
     pass
+
+cmu_graphics.run()

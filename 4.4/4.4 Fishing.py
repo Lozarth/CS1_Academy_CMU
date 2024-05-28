@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('lightSkyBlue', 'orange', start='top')
 
 # sun and lake
@@ -84,3 +88,5 @@ def onMouseDrag(mouseX, mouseY):
         fishTail.centerY = fishingLine.y2
     
     pass
+
+cmu_graphics.run()

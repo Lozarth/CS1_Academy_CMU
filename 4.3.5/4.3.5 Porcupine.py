@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'cornflowerBlue'
 
 spikes = Star(200, 335, 130, 30, fill='saddleBrown', roundness=80)
@@ -35,3 +39,5 @@ def onMouseMove(mouseX, mouseY):
         rightEyebrow.rotateAngle = 15
     
     pass
+
+cmu_graphics.run()

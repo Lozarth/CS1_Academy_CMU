@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def drawMountains():
     Polygon(0, 175, 150, 175, 50, 100, fill='steelBlue')
     Polygon(210, 175, 400, 175, 300, 100, fill='midnightBlue')
@@ -52,3 +56,5 @@ def drawScene(isMountainous, isDesert, isBeach, isNightTime, destination,
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawScene(True, False, False, False, 'Pittsburgh', 35)
+
+cmu_graphics.run()

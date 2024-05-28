@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 Rect(0, 0, 400, 250, fill=gradient(rgb(15, 25, 40), rgb(20, 40, 80), start='top'))
 
@@ -22,3 +26,5 @@ def onMousePress(mouseX, mouseY):
         drawBuilding(mouseX, mouseY)
         drawReflection(mouseX)
     pass
+
+cmu_graphics.run()

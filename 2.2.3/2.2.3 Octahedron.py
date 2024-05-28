@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400)
 
@@ -16,3 +20,5 @@ def onMousePress(mouseX, mouseY):
     Line(400, 0, 400 - mouseX, 400 - mouseY, fill = gradient('black', 'lime'))
     Line(400, 400, 400 - mouseX, 400 - mouseY, fill = gradient('black', 'lime'))
     Circle(400 - mouseX, 400 - mouseY, 5, fill = 'lime')
+
+cmu_graphics.run()

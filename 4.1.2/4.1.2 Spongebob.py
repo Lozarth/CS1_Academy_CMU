@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 250, 400, 150, fill='sandyBrown')
 Rect(0, 0, 400, 250, fill='skyBlue')
@@ -106,3 +110,5 @@ def drawActivity(activityName):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawActivity('fry-cooking')
+
+cmu_graphics.run()

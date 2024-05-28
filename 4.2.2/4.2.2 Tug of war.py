@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 150, 400, fill='red', opacity=10)
 Rect(250, 0, 150, 400, fill='blue', opacity=10)
@@ -56,3 +60,5 @@ def onKeyRelease(key):
     elif (key == 'l'):
         rightPersonArm.centerX -= 10
     pass
+
+cmu_graphics.run()

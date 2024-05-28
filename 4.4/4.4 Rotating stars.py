@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('azure', 'lavenderBlush', start='top')
 
 s1 = Star(200, 125, 25, 5, fill=None, border='skyBlue', borderWidth=10)
@@ -45,3 +49,5 @@ def onKeyPress(key):
         s1.radius = 10
         s2.radius = 10
         s3.radius = 10
+
+cmu_graphics.run()

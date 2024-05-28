@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient(rgb(210, 105, 100), rgb(240, 210, 185), start='top')
 
 mainBuilding = Polygon(110, 400, 290, 400, 290, 340, 280, 340, 280, 300, 250, 300,
@@ -22,3 +26,5 @@ def onMousePress(mouseX, mouseY):
     drawBuilding(mouseX, mouseY)
     mainBuilding.toFront()
     pass
+
+cmu_graphics.run()

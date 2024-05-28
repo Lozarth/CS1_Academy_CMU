@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # table
 app.background = rgb(135, 105, 85)
 Line(0, 200, 400, 200, fill=rgb(165, 125, 100), lineWidth=400, dashes=(40, 3))
@@ -57,3 +61,5 @@ def onMousePress(mouseX, mouseY):
         drawBacon(mouseX, mouseY)
     
     pass
+
+cmu_graphics.run()

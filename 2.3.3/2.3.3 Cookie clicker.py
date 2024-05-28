@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 app.background = gradient('maroon', 'black')
 
@@ -31,3 +35,5 @@ def onMousePress(mouseX, mouseY):
     ### Place Your Code Here ###
     counter.value += 1
     pass
+
+cmu_graphics.run()

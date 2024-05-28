@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 300, fill=gradient('powderBlue', 'gold', start='top'))
 Rect(0, 150, 400, 300, fill=gradient('lightBlue', 'darkCyan', start='left-top'))
@@ -91,3 +95,5 @@ Polygon(
 
 # Draws the fog over the scene.
 Rect(0, 0, 400, 400, fill='grey', opacity=20)
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 
 Line(200, 0, 200, 400, fill='white')
@@ -21,3 +25,5 @@ def onMouseMove(mouseX, mouseY):
         Line (400, 400, mouseX, mouseY, lineWidth = 2, fill = gradient('yellow', 'black'))
     
     pass
+
+cmu_graphics.run()

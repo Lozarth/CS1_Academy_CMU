@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 s = Star(200, 200, 225, 5, fill=None)
 
 def onMouseMove(mouseX, mouseY):
@@ -9,3 +13,5 @@ def onMouseMove(mouseX, mouseY):
     else:
         Circle(mouseX, mouseY, 5, fill = 'mediumAquamarine')
     pass
+
+cmu_graphics.run()

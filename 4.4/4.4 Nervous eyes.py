@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'tan'
 
 Polygon(180, 265, 145, 400, 255, 400, 220, 265, fill=rgb(160, 140, 110))
@@ -18,3 +22,5 @@ def onKeyPress(key):
         leftEye.centerX = 140
         rightEye.centerX = 340
     pass
+
+cmu_graphics.run()

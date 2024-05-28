@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'peru'
 
 # main watermelon
@@ -52,3 +56,5 @@ def onMouseRelease(mouseX, mouseY):
 
     # Changes the title text back.
     title.value = 'Fruit'
+
+cmu_graphics.run()

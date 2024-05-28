@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400, fill='goldenrod')
 
 # pan
@@ -33,3 +37,5 @@ def drawEgg(opacity):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawEgg(100)
+
+cmu_graphics.run()

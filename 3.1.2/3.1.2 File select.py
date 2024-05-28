@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 
 # header
@@ -34,3 +38,5 @@ def onMouseDrag(mouseX, mouseY):
     selected.width = mouseX + 1
     selected.height = mouseY + 1
     pass
+
+cmu_graphics.run()

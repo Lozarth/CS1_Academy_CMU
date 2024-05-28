@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'skyBlue', start='top')
 
 # labels
@@ -39,3 +43,5 @@ def onMousePress(mouseX, mouseY):
         ground.visible = True
         
     pass
+
+cmu_graphics.run()

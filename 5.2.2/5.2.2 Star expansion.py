@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('skyBlue', 'paleTurquoise', start='top')
 
 star1 = Star(200, 200, 175, 8, fill=gradient('darkViolet', 'mediumOrchid'),
@@ -32,3 +36,5 @@ def onKeyHold(keys):
             star2.roundness -= 2
     
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400)
 
@@ -21,3 +25,5 @@ def onMousePress(mouseX, mouseY):
             
             fill = gradient('black', 'red', 'yellow', 'black', start = 'top')
         )
+
+cmu_graphics.run()

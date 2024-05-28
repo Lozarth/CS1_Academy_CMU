@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'azure'
 
 head = Circle(200, 200, 30, fill='mediumOrchid')
@@ -29,3 +33,5 @@ def onKeyHold(keys):
     ### Place Your Code Here ###
     getNewHeadColor()
     pass
+
+cmu_graphics.run()

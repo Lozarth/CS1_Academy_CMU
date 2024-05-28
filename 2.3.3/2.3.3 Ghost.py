@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 Rect(0, 0, 400, 400,
      fill=gradient(rgb(10, 10, 70), 'midnightBlue', start='bottom'))
 Rect(0, 325, 400, 75,
@@ -35,3 +39,5 @@ def onMouseRelease(mouseX, mouseY):
     # Make the ghost fade into the wall.
     ### Place Your Code Here ###
     ghost.opacity = 5
+
+cmu_graphics.run()

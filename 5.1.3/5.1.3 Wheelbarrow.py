@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # sky
 Rect(0, 0, 400, 225, fill=gradient('deepSkyBlue', 'lightCyan', start='top'))
 
@@ -120,3 +124,5 @@ def onKeyPress(key):
     elif (key == 'left' and app.wheelbarrowLifted):
         moveWheelbarrow(-35)
     pass
+
+cmu_graphics.run()

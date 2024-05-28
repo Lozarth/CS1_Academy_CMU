@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400)
 
@@ -49,3 +53,5 @@ def turnOnFlashlight(intensity):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 turnOnFlashlight(0)
+
+cmu_graphics.run()

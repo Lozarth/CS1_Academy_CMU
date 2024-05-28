@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the background.
 Rect(0, 0, 400, 400, fill='paleGreen')
 
@@ -131,3 +135,5 @@ Oval(
 
 # Draw the Mushroom's eyes.
 ### Place Your Code Here ###
+
+cmu_graphics.run()

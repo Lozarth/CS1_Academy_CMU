@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # ears
 Circle(100, 100, 40)
 Circle(300, 100, 40)
@@ -72,3 +76,5 @@ def onMouseRelease(mouseX, mouseY):
     bamboo.x1 = 190
     bamboo.y1 = 265
     pass
+
+cmu_graphics.run()

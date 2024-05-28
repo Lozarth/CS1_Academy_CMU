@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 speechBubble = Polygon(280, 110, 310, 95, 390, 95, 390, 45, 290, 45, 290, 95,
                        fill=None, border='black', visible=False)
 speechText = Label('...', 340, 70, size=25, visible=False)
@@ -65,3 +69,5 @@ def hatchedOrNot(hasHatched):
 drawEggBottom()
 drawEggTop()
 drawCrack()
+
+cmu_graphics.run()

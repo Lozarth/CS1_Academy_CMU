@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # water
 Rect(0, 0, 400, 400, fill=gradient('royalBlue', 'dodgerBlue', start='top'))
 
@@ -60,3 +64,5 @@ def drawSplash(centerX, centerY):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawSplash(200, 200)
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # I am NOT a satanist!!! This is all fantastical and it fits the theme.
 
 import math
@@ -345,3 +349,4 @@ def onMouseRelease(mouseX, mouseY):
 
 print('You have been sent to a limbo realm where you have to play Monopoly to either be reincarnated or sent to hell...')
 print('"Keep rollin\', rollin\', rollin\', rollin\'" -Fred Durst')
+cmu_graphics.run()

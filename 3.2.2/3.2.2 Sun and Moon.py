@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # skies
 Rect(0, 0, 400, 200, fill='lightSkyBlue')
 Rect(0, 200, 400, 200)
@@ -52,3 +56,5 @@ def onMousePress(mouseX, mouseY):
         moon.centerY = 400 - mouseY
     
     pass
+
+cmu_graphics.run()

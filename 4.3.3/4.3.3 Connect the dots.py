@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'pink', start='top')
 Rect(0, 235, 400, 165,
      fill=gradient('darkGreen', 'mediumTurquoise', start='bottom'))
@@ -78,3 +82,5 @@ def onMousePress(mouseX, mouseY):
     ### Place Your Code Here ###
     connect.addPoint(mouseX, mouseY)
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'paleGreen'
 
 track = Rect(200, 200, 360, 360, align='center')
@@ -56,3 +60,5 @@ def onKeyPress(key):
         purpleDot.centerY = 165
         blueDot.centerX = 350
         blueDot.centerY = 240
+
+cmu_graphics.run()

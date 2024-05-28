@@ -1,2 +1,3 @@
 # CS1_Academy_CMU
-All 158 of my Carnegie-Mellon University Academy CS1 Programming Exercises
+167 of my Carnegie-Mellon University Academy CS1 Programming Exercises
+![alt text](cmu-cs-academy-header.png)

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 def drawTwoHexagons(color):
     # Create two hexagons. Use the function parameter for the fill of the
     # top hexagon and the border of the bottom hexagon!
@@ -25,3 +29,5 @@ def drawTwoHexagons(color):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawTwoHexagons('green')
+
+cmu_graphics.run()

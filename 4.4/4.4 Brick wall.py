@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'darkGrey'
 
 app.nextX = 0
@@ -20,3 +24,5 @@ def onKeyPress(key):
         app.nextX = newBrick.left - 380
         app.nextY -= 40
     pass
+
+cmu_graphics.run()

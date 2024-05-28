@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 Rect(0, 0, 400, 400, fill='aliceBlue')
 Line(0, 200, 400, 200, fill='lightBlue', lineWidth=400, dashes=(1, 10))
@@ -46,3 +50,5 @@ def drawUmbrella(color):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawUmbrella('tomato')
+
+cmu_graphics.run()

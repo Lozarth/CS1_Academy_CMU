@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'black'
 
 rainbow = Polygon(200, 185, 200, 195, 400, 202, 400, 178,
@@ -17,3 +21,5 @@ def onMousePress(mouseX, mouseY):
         beam.y2 = mouseY
         rainbow.centerY = mouseY
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 ### Place Your Code Here ###
 
 # Background
@@ -220,3 +224,5 @@ Circle(
     
     fill = 'white'
 )
+
+cmu_graphics.run()

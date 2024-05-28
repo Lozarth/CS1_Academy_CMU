@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'whiteSmoke'
 
 volume = Star(200, 210, 100, 10, fill='gold', opacity=30)
@@ -38,3 +42,5 @@ def onMousePress(mouseX, mouseY):
             songType.value = 'Loud rock'
             volume.radius = 240
     pass
+
+cmu_graphics.run()

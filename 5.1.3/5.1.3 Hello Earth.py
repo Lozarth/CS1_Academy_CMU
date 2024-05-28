@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.enterPressed = False
 
 Rect(0, 0, 400, 400, border='dimGrey', borderWidth=40)
@@ -33,3 +37,5 @@ def onKeyPress(key):
         msg.value += key
         msg.left = 90
     pass
+
+cmu_graphics.run()

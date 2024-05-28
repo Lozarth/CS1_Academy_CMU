@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # roof layers
 Circle(200, 275, 340,
        fill=gradient(rgb(30, 15, 10), rgb(60, 20, 10), start='top'))
@@ -70,3 +74,5 @@ def onMouseRelease(mouseX, mouseY):
     caveRoof.fill = gradient('black', rgb(30, 15, 10), start = 'top')
     light.fill = 'black'
     pass
+
+cmu_graphics.run()

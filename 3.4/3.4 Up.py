@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('deepSkyBlue', 'lightCyan', start='top')
 
 def drawBalloon(centerX, centerY, radius, color):
@@ -62,3 +66,5 @@ def drawHouseAndBalloons(balloons):
 ##### Place your code above this line, code below is for testing purposes #####
 # test case:
 drawHouseAndBalloons(0)
+
+cmu_graphics.run()

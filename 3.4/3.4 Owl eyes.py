@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = 'slateGray'
 
 # branch
@@ -54,3 +58,5 @@ def onMouseMove(mouseX, mouseY):
     ### Fix Your Code Here ###
     rightEye.centerY = 110 + (mouseY / 10)
     leftEye.centerY = 110 + (mouseY / 10) 
+
+cmu_graphics.run()

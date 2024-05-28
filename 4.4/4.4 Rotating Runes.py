@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 app.background = 'black'
 
 s1 = Circle(200, 200, 150, fill=None, border='lightCyan', borderWidth=16)
@@ -40,3 +42,5 @@ def onMouseMove(mouseX, mouseY):
     rotateAndResizeShape(s2)
     rotateAndResizeShape(s3)
     rotateAndResizeShape(s4)
+
+cmu_graphics.run()

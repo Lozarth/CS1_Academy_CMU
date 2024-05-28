@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 app.background = gradient('dodgerBlue', 'dodgerBlue', 'lightCyan', start='bottom')
 
 # ocean stars
@@ -40,3 +44,5 @@ def onKeyHold(keys):
         bubble.radius = 10
         bubble.centerY = 330
     pass
+
+cmu_graphics.run()

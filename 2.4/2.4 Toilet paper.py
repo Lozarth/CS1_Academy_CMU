@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # This draws the background; the two lines overlap and create a checkerboard
 # pattern!
 Line(200, 0, 200, 400, fill='lightGrey', lineWidth=400, dashes=True)
@@ -51,3 +55,5 @@ def onMousePress(mouseX, mouseY):
         fill = 'black'
     )
     pass
+
+cmu_graphics.run()

@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # background
 app.background = 'skyBlue'
 
@@ -41,3 +45,5 @@ def onMouseRelease(x, y):
     
     spikes.visible = False
     pass
+
+cmu_graphics.run()

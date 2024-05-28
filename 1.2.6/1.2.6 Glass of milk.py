@@ -1,3 +1,7 @@
+from cmu_graphics import *
+
+
+
 # Draws the background and table.
 Rect(0, 0, 400, 320, fill='steelBlue')
 Rect(0, 320, 400, 80, fill='sienna')
@@ -10,3 +14,5 @@ Rect(0, 320, 400, 80, fill='sienna')
 Rect(110, 120, 180, 200, fill = 'white')
 
 Rect(110, 80, 180, 240, fill = gradient('lightGrey', 'grey', 'lightGrey', start = 'left'), opacity = 50)
+
+cmu_graphics.run()
